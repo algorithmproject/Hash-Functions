@@ -1,6 +1,6 @@
 %% a hash function from the book named "The C Programming Language"
 % param:
-%   tar, the product to be given a hash code
+%   tar, the product to be given a hash code, recommend numeric
 %   m, the length of hash vector
 function hash = BKDRHash(tar, m)
 hash = 1;
