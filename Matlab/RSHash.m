@@ -1,6 +1,6 @@
 %% simple hash function from Robert Sedgwicks Algorithm
 % param:
-%   tar, the product to be given a hash code
+%   tar, the product to be given a hash code, recommend numeric
 %   m, the length of hash vector
 function hash = RSHash(tar, m)
 b = 3;
